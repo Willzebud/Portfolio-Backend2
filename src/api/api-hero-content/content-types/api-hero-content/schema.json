@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "api_hero_contents",
+  "info": {
+    "singularName": "api-hero-content",
+    "pluralName": "api-hero-contents",
+    "displayName": "API Hero Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "greeting": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "profilPicture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}

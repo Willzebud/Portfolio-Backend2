@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "api_skills_contents",
+  "info": {
+    "singularName": "api-skills-content",
+    "pluralName": "api-skills-contents",
+    "displayName": "API Skills Content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skillName": {
+      "type": "string"
+    },
+    "skillLevel": {
+      "type": "integer"
+    },
+    "skillIcon": {
+      "type": "string"
+    },
+    "skillID": {
+      "type": "integer"
+    }
+  }
+}

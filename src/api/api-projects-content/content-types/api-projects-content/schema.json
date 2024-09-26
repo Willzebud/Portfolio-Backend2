@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "api_projects_contents",
+  "info": {
+    "singularName": "api-projects-content",
+    "pluralName": "api-projects-contents",
+    "displayName": "API Projects Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectNumber": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "techStack": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "realisationTitle": {
+      "type": "string"
+    },
+    "realisationText": {
+      "type": "text"
+    },
+    "challengesTitle": {
+      "type": "string"
+    },
+    "challengesText": {
+      "type": "text"
+    },
+    "skillsTitle": {
+      "type": "string"
+    },
+    "skillsText": {
+      "type": "text"
+    },
+    "codeLinkText": {
+      "type": "string"
+    },
+    "codeLinkUrl": {
+      "type": "string"
+    },
+    "projectImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

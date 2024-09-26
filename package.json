@@ -1,0 +1,38 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.25.11",
+    "@strapi/plugin-i18n": "4.25.11",
+    "@strapi/plugin-users-permissions": "4.25.11",
+    "@strapi/strapi": "4.25.11",
+    "axios": "^1.7.7",
+    "better-sqlite3": "8.6.0",
+    "pg": "^8.13.0",
+    "pg-connection-string": "^2.7.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "engines": {
+    "node": ">=18.17.0 <=20.x.x",
+    "npm": "9.6.3"
+  },
+  "strapi": {
+    "uuid": "6cd6ee84-770c-4212-85a7-c6a36c7ce0b0"
+  }
+}

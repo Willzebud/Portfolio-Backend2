@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "api_about_me_contents",
+  "info": {
+    "singularName": "api-about-me-content",
+    "pluralName": "api-about-me-contents",
+    "displayName": "API About Me Content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutMe": {
+      "type": "text"
+    }
+  }
+}
