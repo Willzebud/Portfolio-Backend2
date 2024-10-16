@@ -918,6 +918,7 @@ export interface ApiApiSkillsContentApiSkillsContent
     skillLevel: Attribute.Integer;
     skillIcon: Attribute.String;
     skillID: Attribute.Integer;
+    timesExperience: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

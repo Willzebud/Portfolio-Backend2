@@ -23,6 +23,9 @@
     },
     "skillID": {
       "type": "integer"
+    },
+    "timesExperience": {
+      "type": "string"
     }
   }
 }
